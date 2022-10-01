@@ -1,23 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
-using Windows.Foundation.Collections;
 using Windows.System;
-using Windows.System.Threading;
 using Windows.UI.Core;
-using Windows.UI.Popups;
 using Windows.UI.ViewManagement;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
-using Windows.UI.Xaml.Controls.Primitives;
-using Windows.UI.Xaml.Data;
-using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Media.Imaging;
-using Windows.UI.Xaml.Navigation;
 using Windows.UI.Xaml.Shapes;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
@@ -226,8 +215,8 @@ namespace Dodge_Game_Project
             }
             rec.Width = piece._pieceWidth;
             rec.Height = piece._pieceHeight;
-            Canvas.SetLeft (rec, piece._locationX);
-            Canvas.SetTop (rec, piece._locationY);
+            Canvas.SetLeft(rec, piece._locationX);
+            Canvas.SetTop(rec, piece._locationY);
 
             layoutRoot.Children.Add(rec);
             return rec;

@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Windows.UI.Xaml.Media.Imaging;
-
-namespace Dodge_Game_Project
+﻿namespace Dodge_Game_Project
 {
     public class Gamepiece
     {
@@ -23,17 +16,11 @@ namespace Dodge_Game_Project
     }
     public class Player : Gamepiece
     {
-        public Player(int locationX, int locationY) : base(locationX, locationY, playerWidth, playerHeight)
-        {
-
-        }
+        public Player(int locationX, int locationY) : base(locationX, locationY, playerWidth, playerHeight) { }
     }
     public class Enemy : Gamepiece
     {
-        public Enemy(int locationX, int locationY) : base(locationX, locationY, enemyWidth, enemyHeight)
-        {
+        public Enemy(int locationX, int locationY) : base(locationX, locationY, enemyWidth, enemyHeight) { }
 
-        }
     }
-
 }
