@@ -19,10 +19,8 @@ UI - Contains the UI elements and some of the relevant code
 - Eliminate enemies by making them touch each other
 
 
-## Screenshots
+## Gameplay
 
-![Screenshot 1](screenshot1.png)
-![Screenshot 2](screenshot2.png)
-![Screenshot 3](screenshot3.png)
+![Gameplay 1](/GameplayExamples/Gameplay.png)
 
 
