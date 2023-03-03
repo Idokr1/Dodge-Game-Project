@@ -22,5 +22,3 @@ UI - Contains the UI elements and some of the relevant code
 ## Gameplay
 
 ![Gameplay 1](/GameplayExamples/Gameplay.png)
-
-
